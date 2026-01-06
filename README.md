@@ -31,30 +31,19 @@ All analyses are performed on **TCGA-LIHC** using **TPM-normalized RNA-seq**
 and curated overall survival data.
 
 ---
-## Example survival analyses
-
-### Lee et al. 2004 — Proliferation signature
-<img src="figures/lee2004/Lee2004_TCGA_LIHC_survival.png" width="600">
-
----
+## Example survival analysis
 
 ### Hoshida et al. 2009 — S1 inflammatory subtype
-<img src="figures/hoshida2009/Hoshida2009_TCGA_LIHC_S1_survival.png" width="700">
 
----
+<img src="figures/hoshida2009/Hoshida2009_TCGA_LIHC_S1_survival.png" width="650" style="max-height:500px;">
 
-### Boyault et al. 2007 — Molecular subclasses
-<img src="figures/boyault2007/Boyault2007_TCGA_LIHC_subclass_survival.png" width="700">
+This Kaplan–Meier curve reproduces the survival difference between S1-like
+(inflammatory) and non–S1 tumors in TCGA-LIHC, consistent with the original
+Hoshida et al. classification.
 
----
-
-### Bezzecchi et al. 2020 — NF-Y–driven tumors
-<img src="figures/bezzecchi2020/Bezzecchi2020_TCGA_LIHC_NFY_survival.png" width="700">
-
----
-
-### Chiang-style — CTNNB1 vs proliferation programs
-<img src="figures/chiang/Chiang_TCGA_LIHC_CTNNB1_vs_Proliferation.png" width="700">
+Additional survival analyses based on Lee et al. (2004), Boyault et al. (2007),
+Bezzecchi et al. (2020), and Chiang-style CTNNB1 programs are implemented in
+`scripts/02_signatures/` with corresponding figures saved under `figures/`.
 
 ## 📁 Repository structure
 
