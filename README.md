@@ -34,27 +34,27 @@ and curated overall survival data.
 ## Example survival analyses
 
 ### Lee et al. 2004 — Proliferation signature
-![Lee 2004 survival](figures/lee2004/Lee2004_TCGA_LIHC_survival.png)
+<img src="figures/lee2004/Lee2004_TCGA_LIHC_survival.png" width="600">
 
 ---
 
 ### Hoshida et al. 2009 — S1 inflammatory subtype
-![Hoshida 2009 survival](figures/hoshida2009/Hoshida2009_TCGA_LIHC_S1_survival.png)
+<img src="figures/hoshida2009/Hoshida2009_TCGA_LIHC_S1_survival.png" width="700">
 
 ---
 
 ### Boyault et al. 2007 — Molecular subclasses
-![Boyault 2007 survival](figures/boyault2007/Boyault2007_TCGA_LIHC_subclass_survival.png)
+<img src="figures/boyault2007/Boyault2007_TCGA_LIHC_subclass_survival.png" width="700">
 
 ---
 
 ### Bezzecchi et al. 2020 — NF-Y–driven tumors
-![Bezzecchi 2020 survival](figures/bezzecchi2020/Bezzecchi2020_TCGA_LIHC_NFY_survival.png)
+<img src="figures/bezzecchi2020/Bezzecchi2020_TCGA_LIHC_NFY_survival.png" width="700">
 
 ---
 
 ### Chiang-style — CTNNB1 vs proliferation programs
-![Chiang survival](figures/chiang/Chiang_TCGA_LIHC_CTNNB1_vs_Proliferation.png)
+<img src="figures/chiang/Chiang_TCGA_LIHC_CTNNB1_vs_Proliferation.png" width="700">
 
 ## 📁 Repository structure
 
