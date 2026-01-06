@@ -33,26 +33,28 @@ and curated overall survival data.
 ---
 
 ## Repository structure
+
 tcga-lihc-survival-signatures/
 ├── scripts/
-│ └── 02_signatures/
-│ ├── lee2004_proliferation.R
-│ ├── hoshida2009_s1.R
-│ ├── boyault2007_subclasses.R
-│ ├── bezzecchi2020_nfy.R
-│ └── chiang_ctnnb1_vs_proliferation.R
+│   └── 02_signatures/
+│       ├── lee2004_proliferation.R
+│       ├── hoshida2009_s1.R
+│       ├── boyault2007_subclasses.R
+│       ├── bezzecchi2020_nfy.R
+│       └── chiang_ctnnb1_vs_proliferation.R
 │
 ├── figures/
-│ ├── lee2004/
-│ ├── hoshida2009/
-│ ├── boyault2007/
-│ ├── bezzecchi2020/
-│ └── chiang/
+│   ├── lee2004/
+│   ├── hoshida2009/
+│   ├── boyault2007/
+│   ├── bezzecchi2020/
+│   └── chiang/
 │
 ├── environment/
-│ └── session_info.txt
+│   └── session_info.txt
 │
 └── README.md
+
 
 ---
 
@@ -123,7 +125,7 @@ original publications:
 
 ## Author
 
-**Naghmeh (Nelly) Rezaei**  
+**Naghmeh Rezaei**  
 Computational biology | Cancer genomics | Survival analysis
 
 
