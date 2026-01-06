@@ -103,6 +103,47 @@ Across scripts, the general workflow is:
 
 Quartile-based or median-based stratifications are used depending on the
 original publication logic.
+---
+
+## How to run
+
+Each survival analysis is implemented as a standalone R script.
+
+To run an analysis, open R or RStudio and source the corresponding script.
+For example, to run the Hoshida et al. 2009 S1 analysis:
+
+```r
+source("scripts/02_signatures/hoshida2009_s1.R")
+
+Each script:
+
+Loads TCGA-LIHC TPM-normalized RNA-seq expression data
+
+Computes published gene signature scores
+
+Stratifies patients into biologically defined groups
+
+Performs Kaplan–Meier survival analysis with log-rank testing
+
+Saves output figures to the matching subfolder under figures/
+
+Methods overview
+
+TCGA-LIHC RNA-seq expression data (TPM-normalized)
+
+Curated overall survival metadata
+
+Signature definitions from published studies
+
+Patient stratification based on biological criteria from original papers
+
+Survival analysis using Kaplan–Meier curves and log-rank tests
+
+Data availability
+
+All analyses use publicly available TCGA-LIHC data.
+No raw sequencing data or protected patient-level information
+is included in this repository.
 
 ---
 
