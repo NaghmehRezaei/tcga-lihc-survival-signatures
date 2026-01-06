@@ -100,7 +100,6 @@ Across scripts, the general workflow is:
 3. Compute biologically motivated signature scores  
 4. Stratify tumors into high/low or subtype groups  
 5. Perform Kaplan–Meier overall survival analysis  
-
 Quartile-based or median-based stratifications are used depending on the
 original publication logic.
 ---
@@ -112,7 +111,7 @@ Each survival analysis is implemented as a standalone R script.
 To run an analysis, open R or RStudio and source the corresponding script.
 For example, to run the Hoshida et al. 2009 S1 analysis:
 
-```r
+
 source("scripts/02_signatures/hoshida2009_s1.R")
 
 Each script:
@@ -139,7 +138,9 @@ Patient stratification based on biological criteria from original papers
 
 Survival analysis using Kaplan–Meier curves and log-rank tests
 
-Data availability
+---
+
+## Data availability
 
 All analyses use publicly available TCGA-LIHC data.
 No raw sequencing data or protected patient-level information
