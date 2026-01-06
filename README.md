@@ -32,8 +32,9 @@ and curated overall survival data.
 
 ---
 
-## Repository structure
+## 📁 Repository structure
 
+<pre>
 tcga-lihc-survival-signatures/
 ├── scripts/
 │   └── 02_signatures/
@@ -54,6 +55,7 @@ tcga-lihc-survival-signatures/
 │   └── session_info.txt
 │
 └── README.md
+</pre>
 
 
 ---
